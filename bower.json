@@ -1,0 +1,20 @@
+{
+  "name": "lesson7_50",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alexandr <alexandr.ponomarenko@icloud.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sudden-man/lesson7-8_49",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

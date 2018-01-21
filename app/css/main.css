@@ -1,0 +1,7 @@
+h1 {
+  color: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all .4s;
+  transition: all .4s; }

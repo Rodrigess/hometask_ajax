@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <!-- endbuild -->
+
+</head>
+<body>
+    
+    
+    <!-- <form action="http://api.github.com/users" method="POST">
+        <input type="text" name="name">
+        <input type="text" name="email">
+        <input type="text" name="password">
+        <button type="submit">Send</button>
+    </form> -->
+
+    <input type="text" id="login">
+    <button id="getUser">Get user</button>
+    <br>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Avatar</th>
+                <th>Login</th>
+            </tr>
+        </thead>
+        <tbody id="users">
+            
+        </tbody>
+    </table>
+
+    <!-- build:js js/vendor.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js js/main.min.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
