@@ -31,7 +31,7 @@
                         <img src="${user.avatar_url}" width="100">
                     </td>
                     <td>${user.login}
-                    <button id=${user.id} data-id="${user.id}">Followers</button>
+                    <button class="newbtn" id=${user.id} data-id="${user.id}">Followers</button>
                     </td>
 
                 </tr>
