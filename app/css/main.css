@@ -5,3 +5,19 @@ h1 {
   display: flex;
   -webkit-transition: all .4s;
   transition: all .4s; }
+
+.newbtn {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(250, 200, 37);
+    float: right; 
+    margin-right: 5px;
+    color: rgb(68, 68, 68);
+}
+
+#getUser {
+  border-radius: 10px;
+    border: none;
+    background-color: rgb(250, 200, 37);
+    color: rgb(68, 68, 68);
+}
